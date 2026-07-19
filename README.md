@@ -33,14 +33,6 @@ An implementation-ready, privacy-aware measurement blueprint for a lead-generati
 - Keep `qualified_lead` and `closed_won` secondary in Google Ads during the 3–4 week parallel-validation window. Promote only the agreed bidding metric to primary.
 - Configure every tag in a staging GTM environment first and publish production only after sign-off.
 
-## Project layout
-
-```text
-docs/        Configuration, privacy, and test runbooks
-templates/   Web/CRM examples to adapt to the implementation
-bigquery/    Export setup, SQL, and data-quality checks
-notion-import/  Importable Notion page and database templates
-```
 
 ## Host in Notion
 
