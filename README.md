@@ -33,21 +33,6 @@ An implementation-ready, privacy-aware measurement blueprint for a lead-generati
 - Keep `qualified_lead` and `closed_won` secondary in Google Ads during the 3–4 week parallel-validation window. Promote only the agreed bidding metric to primary.
 - Configure every tag in a staging GTM environment first and publish production only after sign-off.
 
-## Project layout
-
-```text
-docs/        Configuration, privacy, and test runbooks
-templates/   Web/CRM examples to adapt to the implementation
-bigquery/    Export setup, SQL, and data-quality checks
-notion-import/  Importable Notion page and database templates
-```
-
-## Host in Notion
-
-Follow [the Notion hosting guide](docs/notion-hosting.md). Import [the self-contained Notion page](notion-import/End-to-End%20Google%20Ads%20Conversion%20Tracking.md) into a private workspace, then import the CSV files in `notion-import/databases/` as Notion databases.
-
-Do not publish this workspace to the web. Store all IDs, API keys, CRM exports, and consent records in access-controlled tools—not in the Notion documentation.
-
 ## Authoritative references
 
 - [Consent Mode overview](https://developers.google.com/tag-platform/security/concepts/consent-mode)
