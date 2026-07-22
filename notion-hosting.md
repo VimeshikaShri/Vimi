@@ -1,5 +1,3 @@
-# Host this project in Notion
-
 ## Import package
 
 1. In Notion desktop or web, create a private parent page named **End-to-End Google Ads Conversion Tracking** in the approved teamspace.
